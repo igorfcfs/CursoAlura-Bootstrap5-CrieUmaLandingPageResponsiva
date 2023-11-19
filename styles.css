@@ -11,10 +11,22 @@
     width: 325px;
 }
 
-.verde-limao {
-    color: var(--verde-limao);
+.div-novidades {
+    width: 325px;
 }
 
 .botao-lilas {
     background-color: var(--lilas);
+}
+
+.verde-limao {
+    color: var(--verde-limao);
+}
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
 }
